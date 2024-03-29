@@ -1,0 +1,24 @@
+.section-hero {
+  color: #fff;
+  background: #000000;
+  &__container {
+    padding-top: 15px;
+  }
+  &__header {
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    a {
+    }
+    svg {
+      display: block;
+      // width: 2em;
+      // height: 2em;
+    }
+    svg path {
+      fill: currentColor;
+    }
+  }
+}

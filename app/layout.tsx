@@ -1,8 +1,10 @@
+import clsx from "clsx";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+import "normalize.css";
+import "./globals.scss";
+
+import { MontserratFont } from "@/shared/lib";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,8 +17,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="ru">
+      <body className={clsx(MontserratFont.className)}>{children}</body>
     </html>
   );
 }

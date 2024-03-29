@@ -1,0 +1,26 @@
+.title {
+  font-weight: 700;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.standart {
+  font-size: 2.6em;
+  @media (min-width: 992px) {
+    font-size: 3.5em;
+  }
+  @media (min-width: 1200px) {
+    font-size: 5em;
+  }
+}
+
+.big {
+  white-space: nowrap;
+  font-size: 19.8vw;
+  line-height: 1;
+  @media (min-width: 1260px) {
+    font-size: 250px;
+  }
+}
